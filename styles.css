@@ -21,6 +21,6 @@ body {
 
 .logo {
   float: left;
-  width: auto;
+  max-width: : 1300px;
   height: auto;
 }
