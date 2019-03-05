@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'am_type';
+    src: url(assets/fonts/am_type.ttf);
+    font-style: normal;
+    font-weight: 100;
+       }
+
+body {
+  margin: 0;
+  background: #000000
+  font-family: am_type;
+  font-weight: 300;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: am_type;
+  font-weight: 100;
+}
+
+.logo {
+  float: left;
+}
