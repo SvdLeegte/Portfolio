@@ -1,26 +1,52 @@
+/* Overall Styles */
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+  font-family: "am_type", sans-serif;
+}
+
+:root{
+  --main-font-color: #f2b632;
+  --main-white: #fff;
+  --main-font-dark-gray: #4d4d4d;
+  --main-footer-bg-color: #141414;
+  --main-font-family: "am_type", cursive;
+  
+}
+/* Reusable Classes */
+
+/* Header */
+
+/* Header - Nav Toggle */
+.menu{
+  padding: 2rem 2.5 rem;
+  position: fixed;
+  top: 3rem;
+  right: 3rem;
+  background-color: ;
+  z-index: ggg;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Header - Nav */
+
+/* Header - main text */
+/* Section - about me */
+/* Section - portfolio */
+/* Section - contact */
+/* Footer */
+
 @font-face {
     font-family: 'am_type';
-    src: url(assets/fonts/am_type.ttf);
+    src: url(assets/fonts/MellonerFunRegular.ttf);
     font-style: normal;
     font-weight: 100;
        }
-
-body {
-  margin: 0;
-  background: #000000
-  font-family: am_type;
-  font-weight: 300;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-  font-family: am_type;
-  font-weight: 100;
-}
-
-.logo {
-  float: left;
-  max-width: 500px;
-  height: 500px;
-}
