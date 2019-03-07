@@ -8,7 +8,7 @@
 }
 
 html{
-  font-size: 10px;
+  font-size: 20px;
   font-family: "am_type", sans-serif;
 }
 
@@ -18,7 +18,7 @@ html{
   --main-font-dark-gray: #4d4d4d;
   --main-footer-bg-color: #141414;
   --main-font-family: "am_type", cursive;
-  
+
 }
 /* Reusable Classes */
 
