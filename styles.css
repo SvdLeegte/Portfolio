@@ -20,10 +20,37 @@ html{
   --main-font-family: "am_type", cursive;
 
 }
+
+section{
+  padding: 6rem 0;
+}
+
+p{
+  line-height: 1.5;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--main-font-dark-gray);
+}
+
+a{
+  text-decoration: none;
+  color: var(--main-white);
+}
+
 /* Reusable Classes */
 
 /* Header */
-
+header{
+  width: 100%;
+  height: 100wh;
+  background: linear-gradient(0,0,0,.9), transparant);
+  url("assets/images/front_page.png") bottom no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
 /* Header - Nav Toggle */
 .menu{
   padding: 2rem 2.5 rem;
